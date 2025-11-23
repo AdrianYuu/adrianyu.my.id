@@ -4,13 +4,17 @@ import Footer from "../components/common/footer.tsx";
 
 const MainLayout = () => {
     return (
-        <div className={"min-h-screen bg-white"}>
-            <div className={"w-4/5 m-auto"}>
-                <NavigationBar/>
-                <Outlet/>
-                <Footer/>
+        <>
+            <div className={"min-h-screen bg-white max-w-[120rem] m-auto"}>
+                <div className={"w-4/5 m-auto"}>
+                    <NavigationBar/>
+                    <div className={"my-16"}>
+                        <Outlet/>
+                    </div>
+                </div>
             </div>
-        </div>
+            <Footer/>
+        </>
     );
 };
 

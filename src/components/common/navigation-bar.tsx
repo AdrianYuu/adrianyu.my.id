@@ -6,7 +6,7 @@ const NavigationBar = () => {
         <div className={"flex gap-16 justify-center p-8"}>
             {ROUTES.map(route => (
                 <NavLink to={route.to}
-                         className={"hover:underline font-semibold text-md text-[var(--color-primary)]"}>{route.label}</NavLink>
+                         className={"hover:underline font-semibold text-md text-black"}>{route.label}</NavLink>
             ))}
         </div>
     );
