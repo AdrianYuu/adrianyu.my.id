@@ -4,7 +4,7 @@ import Email from "../../assets/common/email.png";
 
 const FloatingSocialMedia = () => {
     return (
-        <div className={"fixed top-1/2 left-4 flex flex-col gap-4"}>
+        <div className={"fixed top-1/2 left-4 flex flex-col gap-2"}>
             <a href="https://www.linkedin.com/in/adrian-yu1/" target={"_blank"}>
                 <img src={Linkedin} alt={"Linkedin"} className={"w-8 h-8 cursor-pointer"}/>
             </a>

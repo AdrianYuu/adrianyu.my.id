@@ -17,7 +17,7 @@ const ProjectCard = ({project}: Props) => {
                 <ProjectCardGithub githubs={project.githubs}/>
             </div>
             <ProjectCardPhotos photos={project.photos}/>
-            <p className={"tracking-wider max-w-[65rem]"}>{project.description}</p>
+            <p className={"tracking-wider max-w-[70rem]"}>{project.description}</p>
             <ProjectCardTechnologies technologies={project.technologies}/>
         </div>
     );

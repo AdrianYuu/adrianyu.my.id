@@ -21,7 +21,7 @@ const HomePage = () => {
                         My Resume</a>
                 </div>
             </div>
-            <img src={AdrianYu} alt="AdrianYu" className={"w-[30rem] rounded-2xl shadow-2xl"}/>
+            <img src={AdrianYu} alt="AdrianYu" className={"w-[30rem] rounded-2xl shadow-lg"}/>
         </motion.div>
     );
 };
