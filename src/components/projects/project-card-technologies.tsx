@@ -1,0 +1,17 @@
+import TechnologyBadge from "./technology-badge.tsx";
+
+interface Props {
+    technologies: string[];
+}
+
+const ProjectCardTechnologies = ({technologies}: Props) => {
+    return (
+        <div className={"flex gap-2"}>
+            {technologies.map((technology, index) => (
+                <TechnologyBadge key={index} name={technology}/>
+            ))}
+        </div>
+    );
+};
+
+export default ProjectCardTechnologies;

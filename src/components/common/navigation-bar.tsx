@@ -10,7 +10,7 @@ const NavigationBar = () => {
                 <NavLink
                     key={index}
                     to={route.to}
-                    className={`text-xl text-black
+                    className={`text-xl
                      ${pathname === route.to ? "font-semibold underline" : "opacity-75"}`}>{route.label}</NavLink>
             ))}
         </div>

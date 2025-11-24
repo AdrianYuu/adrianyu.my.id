@@ -1,6 +1,6 @@
-import Github from "../../assets/github.png";
-import Linkedin from "../../assets/linkedin.png";
-import Email from "../../assets/email.png";
+import Github from "../../assets/common/github.png";
+import Linkedin from "../../assets/common/linkedin.png";
+import Email from "../../assets/common/email.png";
 
 const FloatingSocialMedia = () => {
     return (

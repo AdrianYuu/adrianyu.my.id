@@ -14,8 +14,8 @@ const ROUTES: IRoute[] = [
         label: "Experiences"
     },
     {
-        to: "/works",
-        label: "Works"
+        to: "/projects",
+        label: "Projects"
     }
 ];
 

@@ -1,5 +1,5 @@
 import {motion} from "motion/react";
-import AdrianYu from "../assets/adrian-yu.png";
+import AdrianYu from "../assets/home/adrian-yu.png";
 
 const HomePage = () => {
     return (
@@ -21,7 +21,7 @@ const HomePage = () => {
                         My Resume</a>
                 </div>
             </div>
-            <img src={AdrianYu} alt="adrian-yu" className={"w-[30rem] rounded-2xl shadow-2xl"}/>
+            <img src={AdrianYu} alt="AdrianYu" className={"w-[30rem] rounded-2xl shadow-2xl"}/>
         </motion.div>
     );
 };

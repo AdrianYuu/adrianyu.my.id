@@ -17,7 +17,7 @@ const ExperienceCard = ({experience}: Props) => {
                         <p className={"text-gray-600"}>{experience.location}</p>
                     </div>
                 </div>
-                <ul className={"list-disc pl-8"}>
+                <ul className={"list-disc pl-8 tracking-wider"}>
                     {experience.descriptions.map((description, index) => (
                         <li key={index}>{description}</li>
                     ))}
