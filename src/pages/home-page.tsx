@@ -1,8 +1,12 @@
+import {motion} from "motion/react";
 import AdrianYu from "../assets/adrian-yu.png";
 
 const HomePage = () => {
     return (
-        <div className={"flex gap-24 mt-36"}>
+        <motion.div className={"flex gap-24 mt-36"}
+                    initial={{opacity: 0, y: -20}}
+                    animate={{opacity: 1, y: 0}}
+                    transition={{duration: 0.6}}>
             <div className={"flex flex-col gap-8 justify-center"}>
                 <div className={"flex flex-col gap-4"}>
                     <p className={"text-8xl font-bold tracking-wide"}>Adrian Yu</p>
@@ -18,7 +22,7 @@ const HomePage = () => {
                 </div>
             </div>
             <img src={AdrianYu} alt="adrian-yu" className={"w-[30rem] rounded-2xl shadow-2xl"}/>
-        </div>
+        </motion.div>
     );
 };
 

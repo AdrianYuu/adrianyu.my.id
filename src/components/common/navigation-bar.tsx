@@ -6,10 +6,12 @@ const NavigationBar = () => {
 
     return (
         <div className={"flex gap-16 justify-center p-8 sticky top-0 z-50 bg-white"}>
-            {ROUTES.map(route => (
-                <NavLink to={route.to}
-                         className={`text-lg text-black
-                         ${pathname === route.to ? "font-semibold" : "opacity-75"}`}>{route.label}</NavLink>
+            {ROUTES.map((route, index) => (
+                <NavLink
+                    key={index}
+                    to={route.to}
+                    className={`text-xl text-black
+                     ${pathname === route.to ? "font-semibold underline" : "opacity-75"}`}>{route.label}</NavLink>
             ))}
         </div>
     );
