@@ -7,7 +7,7 @@ interface Props {
 const ExperienceCard = ({experience}: Props) => {
     return (
         <div className={"flex gap-2 relative"}>
-            <div className={"absolute left-[-8.4px] top-[28px] bg-white border-2 border-black rounded-xl w-4 h-4"}/>
+            <div className={"absolute left-[-9px] top-[28px] bg-white border-2 border-black rounded-xl w-4 h-4"}/>
             <div className={"flex flex-col gap-2 rounded-xl p-4 ps-6"}>
                 <div className={"flex flex-col gap-1"}>
                     <p className={"text-3xl font-bold"}>{experience.title}</p>

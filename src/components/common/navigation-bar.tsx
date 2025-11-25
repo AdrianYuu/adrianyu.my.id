@@ -5,7 +5,7 @@ const NavigationBar = () => {
     const {pathname} = useLocation();
 
     return (
-        <div className={"flex gap-16 justify-center p-8 sticky top-0 z-50 bg-white"}>
+        <div className={"flex gap-12 justify-center p-8 sticky top-0 z-50 bg-white"}>
             {ROUTES.map((route, index) => (
                 <NavLink
                     key={index}
