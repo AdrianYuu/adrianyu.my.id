@@ -3,7 +3,7 @@ import AdrianYu from "../assets/home/adrian-yu.png";
 
 const HomePage = () => {
     return (
-        <motion.div className={"flex gap-24 mt-36"}
+        <motion.div className={"flex flex-col-reverse items-center lg:flex-row gap-8 lg:gap-16 mt-12 lg:mt-36"}
                     initial={{opacity: 0, y: -20}}
                     animate={{opacity: 1, y: 0}}
                     transition={{duration: 0.6}}>
@@ -21,7 +21,7 @@ const HomePage = () => {
                         My Resume</a>
                 </div>
             </div>
-            <img src={AdrianYu} alt="AdrianYu" className={"hidden lg:block w-[30rem] rounded-2xl shadow-lg"}/>
+            <img src={AdrianYu} alt="AdrianYu" className={"w-[30rem] rounded-2xl shadow-lg"}/>
         </motion.div>
     );
 };
