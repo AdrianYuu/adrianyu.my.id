@@ -8,10 +8,11 @@ const ProjectsPage = () => {
     const [projectType, setProjectType] = useState<string>(ProjectType.PROFESSIONAL);
 
     return (
-        <motion.div className={"flex mt-8 pb-24 flex-col gap-12"}
-                    initial={{opacity: 0, y: -20}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{duration: 0.6}}>
+        <motion.div
+            className={"flex mt-8 pb-24 flex-col gap-12"}
+            initial={{opacity: 0, y: -20}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 0.6}}>
             <div className={"flex gap-8 justify-center"}>
                 <button
                     onClick={() => setProjectType(ProjectType.PROFESSIONAL)}
@@ -32,11 +33,18 @@ const ProjectsPage = () => {
                     Personal
                 </button>
             </div>
-            {PROJECTS
-                .filter(project => project.type === projectType)
-                .map((project, index) => (
-                    <ProjectCard key={index} project={project}/>
-                ))}
+            <motion.div
+                key={projectType}
+                className={"flex flex-col gap-18"}
+                initial={{opacity: 0, y: -20}}
+                animate={{opacity: 1, y: 0}}
+                transition={{duration: 0.6}}>
+                {PROJECTS
+                    .filter(project => project.type === projectType)
+                    .map((project) => (
+                        <ProjectCard key={project.title} project={project}/>
+                    ))}
+            </motion.div>
         </motion.div>
     );
 };

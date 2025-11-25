@@ -1,5 +1,5 @@
 import {motion} from "motion/react";
-import AdrianYu from "../assets/home/adrian-yu.png";
+import AdrianYu from "../assets/home/adrian-yu.webp";
 
 const HomePage = () => {
     return (

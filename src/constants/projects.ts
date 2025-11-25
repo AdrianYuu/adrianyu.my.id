@@ -1,18 +1,17 @@
 import {ProjectType} from "./project-type.ts";
-import AttendanceManagementLoginPage from "../assets/projects/professional/attendance-management/login-page.png";
+import AttendanceManagementLoginPage from "../assets/projects/professional/attendance-management/login-page.webp";
 import AttendanceManagementStudentHomePage
-    from "../assets/projects/professional/attendance-management/student-home-page.png";
+    from "../assets/projects/professional/attendance-management/student-home-page.webp";
 import AttendanceManagementClassroomHomePage
-    from "../assets/projects/professional/attendance-management/classroom-home-page.png";
+    from "../assets/projects/professional/attendance-management/classroom-home-page.webp";
 import AttendanceManagementAdminHomePage
-    from "../assets/projects/professional/attendance-management/admin-home-page.png";
-import AttendanceManagementExcel from "../assets/projects/professional/attendance-management/excel.png";
-import ERamenHome from "../assets/projects/personal/eramen/home.png";
-import ERamenProduct from "../assets/projects/personal/eramen/product.png";
-import ERamenPromotion from "../assets/projects/personal/eramen/promotion.png";
-import ERamenAboutUs from "../assets/projects/personal/eramen/about-us.png";
-import ERamenContactUs from "../assets/projects/personal/eramen/contact-us.png";
-import AtlantisLandingPage from "../assets/projects/professional/atlantis/atlantis-landing-page.png";
+    from "../assets/projects/professional/attendance-management/admin-home-page.webp";
+import ERamenHome from "../assets/projects/personal/eramen/home.webp";
+import ERamenProduct from "../assets/projects/personal/eramen/product.webp";
+import ERamenPromotion from "../assets/projects/personal/eramen/promotion.webp";
+import ERamenAboutUs from "../assets/projects/personal/eramen/about-us.webp";
+import ERamenContactUs from "../assets/projects/personal/eramen/contact-us.webp";
+import AtlantisLandingPage from "../assets/projects/professional/atlantis/landing-page.webp";
 
 export interface IProject {
     title: string;
@@ -42,7 +41,7 @@ export const PROJECTS: IProject[] = [
         description: "Attendance Management",
         type: ProjectType.PROFESSIONAL,
         technologies: ["React", "Tailwind", "Express", "TypeScript", "Prisma", "MySQL", "Docker"],
-        photos: [AttendanceManagementLoginPage, AttendanceManagementStudentHomePage, AttendanceManagementClassroomHomePage, AttendanceManagementAdminHomePage, AttendanceManagementExcel],
+        photos: [AttendanceManagementLoginPage, AttendanceManagementStudentHomePage, AttendanceManagementClassroomHomePage, AttendanceManagementAdminHomePage],
     },
     {
         title: "ERamen",
