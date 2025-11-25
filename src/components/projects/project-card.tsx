@@ -3,6 +3,7 @@ import ProjectCardTechnologies from "./project-card-technologies.tsx";
 import ProjectCardGithub from "./project-card-github.tsx";
 import ProjectCardDemo from "./project-card-demo.tsx";
 import ProjectCardPhotos from "./project-card-photos.tsx";
+import ProjectCardDescriptions from "./project-card-descriptions.tsx";
 
 interface Props {
     project: IProject;
@@ -17,8 +18,8 @@ const ProjectCard = ({project}: Props) => {
                 <ProjectCardGithub githubs={project.githubs}/>
             </div>
             <ProjectCardPhotos photos={project.photos}/>
-            <p className={"tracking-wider max-w-[70rem]"}>{project.description}</p>
             <ProjectCardTechnologies technologies={project.technologies}/>
+            <ProjectCardDescriptions descriptions={project.descriptions}/>
         </div>
     );
 };

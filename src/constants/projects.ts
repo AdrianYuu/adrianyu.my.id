@@ -15,7 +15,7 @@ import AtlantisLandingPage from "../assets/projects/professional/atlantis/landin
 
 export interface IProject {
     title: string;
-    description: string;
+    descriptions: string[];
     type: ProjectType;
     technologies: string[];
     photos: string[];
@@ -31,21 +31,34 @@ export interface IGithub {
 export const PROJECTS: IProject[] = [
     {
         title: "Atlantis",
-        description: "Atlantis",
+        descriptions: [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!\n"
+        ],
         type: ProjectType.PROFESSIONAL,
         technologies: ["React", "shadcn/ui", "TypeScript", "TanStack Query", ".NET Core", "EF Core", "Microsoft SQL Server", "IIS"],
         photos: [AtlantisLandingPage]
     },
     {
         title: "Attendance Management",
-        description: "Attendance Management",
+        descriptions: [
+            "lorem",
+            "lorem"
+        ],
         type: ProjectType.PROFESSIONAL,
         technologies: ["React", "Tailwind", "Express", "TypeScript", "Prisma", "MySQL", "Docker"],
         photos: [AttendanceManagementLoginPage, AttendanceManagementStudentHomePage, AttendanceManagementClassroomHomePage, AttendanceManagementAdminHomePage],
     },
     {
         title: "ERamen",
-        description: "ERamen",
+        descriptions: [
+            "lorem",
+            "lorem"
+        ],
         type: ProjectType.PERSONAL,
         technologies: ["HTML", "CSS", "JavaScript"],
         photos: [ERamenHome, ERamenProduct, ERamenPromotion, ERamenAboutUs, ERamenContactUs],
