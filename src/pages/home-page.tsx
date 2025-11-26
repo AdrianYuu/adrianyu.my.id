@@ -3,7 +3,7 @@ import AdrianYu from "../assets/home/adrian-yu.webp";
 
 const HomePage = () => {
     return (
-        <motion.div className={"flex flex-col-reverse items-center lg:flex-row gap-8 lg:gap-16 mt-12 lg:mt-36 pb-24"}
+        <motion.div className={"flex flex-col-reverse items-center lg:flex-row gap-8 lg:gap-16 mt-12 lg:mt-28 pb-24"}
                     initial={{opacity: 0, y: -20}}
                     animate={{opacity: 1, y: 0}}
                     transition={{duration: 0.6}}>
