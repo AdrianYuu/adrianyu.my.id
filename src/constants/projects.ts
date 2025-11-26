@@ -45,10 +45,7 @@ export const PROJECTS: IProject[] = [
         ],
         type: ProjectType.PROFESSIONAL,
         technologies: ["React", "Tailwind", "Express", "TypeScript", "Prisma", "MySQL", "Docker"],
-        photos: [AttendanceManagementLoginPage, AttendanceManagementStudentHomePage, AttendanceManagementClassroomHomePage, AttendanceManagementAdminHomePage,
-            AttendanceManagementLoginPage,
-            AttendanceManagementLoginPage,
-            AttendanceManagementLoginPage]
+        photos: [AttendanceManagementLoginPage, AttendanceManagementStudentHomePage, AttendanceManagementClassroomHomePage, AttendanceManagementAdminHomePage]
     },
     {
         title: "ERamen",
