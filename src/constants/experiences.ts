@@ -15,7 +15,7 @@ export const EXPERIENCES: IExperience[] = [
         start: "February 2025",
         end: "Present",
         descriptions: [
-            "Built an Attendance Management System for 120+ internship students using React, Express.js, and MySQL, including location-based attendance validation.",
+            "Built an Attendance Management System for 120+ internship students using React, Express, and MySQL, including location-based attendance validation.",
             "Developed an Android app using Jetpack Compose and Room to calculate household electrical usage and estimate monthly electricity costs.",
             "Created an Online Learning Platform with Laravel and React to support bootcamp-style training and course access.",
             "Maintained servers and deployed applications using Docker for reliable, scalable, and consistent environments.",
