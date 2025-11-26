@@ -32,12 +32,7 @@ export const PROJECTS: IProject[] = [
     {
         title: "Atlantis",
         descriptions: [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ex, facilis hic iusto nemo non ratione reprehenderit sunt vel voluptatem!\n"
+            "Atlantis is a website used by laboratory assistants."
         ],
         type: ProjectType.PROFESSIONAL,
         technologies: ["React", "shadcn/ui", "TypeScript", "TanStack Query", ".NET Core", "EF Core", "Microsoft SQL Server", "IIS"],
@@ -46,18 +41,19 @@ export const PROJECTS: IProject[] = [
     {
         title: "Attendance Management",
         descriptions: [
-            "lorem",
-            "lorem"
+            "Attendance Management is an attendance website."
         ],
         type: ProjectType.PROFESSIONAL,
         technologies: ["React", "Tailwind", "Express", "TypeScript", "Prisma", "MySQL", "Docker"],
-        photos: [AttendanceManagementLoginPage, AttendanceManagementStudentHomePage, AttendanceManagementClassroomHomePage, AttendanceManagementAdminHomePage],
+        photos: [AttendanceManagementLoginPage, AttendanceManagementStudentHomePage, AttendanceManagementClassroomHomePage, AttendanceManagementAdminHomePage,
+            AttendanceManagementLoginPage,
+            AttendanceManagementLoginPage,
+            AttendanceManagementLoginPage]
     },
     {
         title: "ERamen",
         descriptions: [
-            "lorem",
-            "lorem"
+            "ERamen is a ramen website."
         ],
         type: ProjectType.PERSONAL,
         technologies: ["HTML", "CSS", "JavaScript"],

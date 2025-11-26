@@ -35,7 +35,7 @@ const ProjectsPage = () => {
             </div>
             <motion.div
                 key={projectType}
-                className={"flex flex-col gap-18"}
+                className={"flex flex-col gap-10"}
                 initial={{opacity: 0, y: -20}}
                 animate={{opacity: 1, y: 0}}
                 transition={{duration: 0.6}}>

@@ -7,15 +7,16 @@ const HomePage = () => {
                     initial={{opacity: 0, y: -20}}
                     animate={{opacity: 1, y: 0}}
                     transition={{duration: 0.6}}>
-            <div className={"flex flex-col gap-6 lg:gap-8 justify-center"}>
+            <div className={"flex flex-col gap-6 lg:gap-4 justify-center"}>
                 <div className={"flex flex-col gap-4"}>
-                    <p className={"text-6xl lg:text-8xl font-bold tracking-wide"}>Adrian Yu</p>
-                    <p className={"text-md lg:text-lg tracking-wider"}>Hi! I'm a software engineer who loves turning ideas into
+                    <p className={"text-6xl text-center lg:text-left lg:text-8xl font-bold tracking-wide"}>Adrian Yu</p>
+                    <p className={"text-md text-center lg:text-left lg:text-lg tracking-wider"}>Hi! I'm a software
+                        engineer who loves turning ideas into
                         real,
                         functional
                         software. I enjoy learning new technologies and building things with clean, thoughtful code.</p>
                 </div>
-                <div>
+                <div className={"flex justify-center lg:justify-start"}>
                     <a href={""}
                        className={"bg-black text-white px-4 lg:px-6 py-2 lg:py-3 rounded-md font-semibold cursor-pointer hover:opacity-90"}>View
                         My Resume</a>
