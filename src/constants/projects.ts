@@ -1,74 +1,5 @@
 import {ProjectType} from "./project-type.ts";
-import {
-    AtlantisCourse,
-    AtlantisDownloader,
-    AtlantisLanding,
-    AtlantisLecturer,
-    AtlantisMapping,
-    AtlantisPromotion,
-    AtlantisStudent,
-    AtlantisVoting,
-    AttendanceManagementAdmin,
-    AttendanceManagementClassroom,
-    AttendanceManagementExcel,
-    AttendanceManagementLogin,
-    AttendanceManagementStudent,
-    ERamenAbout,
-    ERamenContact,
-    ERamenHome,
-    ERamenProduct,
-    ERamenPromotion,
-    GymMeCart,
-    GymMeHistory,
-    GymMeHomeAdmin,
-    GymMeLogin,
-    GymMeOrderAdmin,
-    GymMeOrderCustomer,
-    GymMeProfile,
-    GymMeRegister,
-    GymMeSupplement,
-    LinkasaBP,
-    LinkasaBSS,
-    LinkasaCABCO,
-    LinkasaChat,
-    LinkasaCIS,
-    LinkasaCS,
-    LinkasaFOM,
-    LinkasaGA,
-    LinkasaGHM,
-    LinkasaHRD,
-    LinkasaIDS,
-    LinkasaLAF,
-    LinkasaLanding,
-    LinkasaLogin,
-    LinkasaLOM,
-    LinkasaMM,
-    TemanMabarCompetition,
-    TemanMabarForum,
-    TemanMabarFriend, TemanMabarGame,
-    TemanMabarHome,
-    TemanMabarLogin, TemanMabarOrder, TemanMabarPlayer, TemanMabarProfile,
-    TemanMabarRegister,
-    TravelohiAdmin,
-    TravelohiCard,
-    TravelohiCart,
-    TravelohiFlight,
-    TravelohiFlightDetail,
-    TravelohiForgot,
-    TravelohiGame,
-    TravelohiGameEnd,
-    TravelohiHome,
-    TravelohiHotel,
-    TravelohiHotelDetail,
-    TravelohiHotelDetail2,
-    TravelohiLogin,
-    TravelohiOrder,
-    TravelohiOTP,
-    TravelohiProfile,
-    TravelohiPromo,
-    TravelohiRegister,
-    TravelohiWallet
-} from "./photos.ts";
+import * as photos from './photos.ts';
 
 export interface IProject {
     title: string;
@@ -117,25 +48,25 @@ export const PROJECTS: IProject[] = [
             "Flask"
         ],
         photos: [
-            TravelohiRegister,
-            TravelohiLogin,
-            TravelohiOTP,
-            TravelohiForgot,
-            TravelohiHome,
-            TravelohiFlight,
-            TravelohiFlightDetail,
-            TravelohiHotel,
-            TravelohiHotelDetail,
-            TravelohiHotelDetail2,
-            TravelohiPromo,
-            TravelohiCart,
-            TravelohiOrder,
-            TravelohiProfile,
-            TravelohiWallet,
-            TravelohiCard,
-            TravelohiGame,
-            TravelohiGameEnd,
-            TravelohiAdmin
+            photos.TravelohiHotelDetail1,
+            photos.TravelohiRegister,
+            photos.TravelohiLogin,
+            photos.TravelohiOTP,
+            photos.TravelohiForgot,
+            photos.TravelohiHome,
+            photos.TravelohiFlight,
+            photos.TravelohiFlightDetail,
+            photos.TravelohiHotel,
+            photos.TravelohiHotelDetail2,
+            photos.TravelohiPromo,
+            photos.TravelohiCart,
+            photos.TravelohiOrder,
+            photos.TravelohiProfile,
+            photos.TravelohiWallet,
+            photos.TravelohiCard,
+            photos.TravelohiGame,
+            photos.TravelohiGameEnd,
+            photos.TravelohiAdmin
         ],
         githubs: [
             {
@@ -167,22 +98,22 @@ export const PROJECTS: IProject[] = [
             "Electron"
         ],
         photos: [
-            LinkasaLanding,
-            LinkasaLogin,
-            LinkasaChat,
-            LinkasaBSS,
-            LinkasaCABCO,
-            LinkasaCIS,
-            LinkasaCS,
-            LinkasaFOM,
-            LinkasaGA,
-            LinkasaGHM,
-            LinkasaHRD,
-            LinkasaIDS,
-            LinkasaLAF,
-            LinkasaLOM,
-            LinkasaMM,
-            LinkasaBP
+            photos.LinkasaHRD,
+            photos.LinkasaLanding,
+            photos.LinkasaLogin,
+            photos.LinkasaChat,
+            photos.LinkasaBSS,
+            photos.LinkasaCABCO,
+            photos.LinkasaCIS,
+            photos.LinkasaCS,
+            photos.LinkasaFOM,
+            photos.LinkasaGA,
+            photos.LinkasaGHM,
+            photos.LinkasaIDS,
+            photos.LinkasaLAF,
+            photos.LinkasaLOM,
+            photos.LinkasaMM,
+            photos.LinkasaBP,
         ],
         githubs: [
             {
@@ -209,16 +140,16 @@ export const PROJECTS: IProject[] = [
             "MySQL"
         ],
         photos: [
-            TemanMabarRegister,
-            TemanMabarLogin,
-            TemanMabarHome,
-            TemanMabarCompetition,
-            TemanMabarForum,
-            TemanMabarFriend,
-            TemanMabarGame,
-            TemanMabarOrder,
-            TemanMabarPlayer,
-            TemanMabarProfile
+            photos.TemanMabarHome,
+            photos.TemanMabarRegister,
+            photos.TemanMabarLogin,
+            photos.TemanMabarGame,
+            photos.TemanMabarFriend,
+            photos.TemanMabarPlayer,
+            photos.TemanMabarCompetition,
+            photos.TemanMabarForum,
+            photos.TemanMabarOrder,
+            photos.TemanMabarProfile
         ],
         githubs: [
             {
@@ -247,15 +178,15 @@ export const PROJECTS: IProject[] = [
             "Crystal Report",
         ],
         photos: [
-            GymMeRegister,
-            GymMeLogin,
-            GymMeHomeAdmin,
-            GymMeCart,
-            GymMeHistory,
-            GymMeOrderAdmin,
-            GymMeSupplement,
-            GymMeProfile,
-            GymMeOrderCustomer
+            photos.GymMeHome,
+            photos.GymMeRegister,
+            photos.GymMeLogin,
+            photos.GymMeSupplement,
+            photos.GymMeOrderAdmin,
+            photos.GymMeHistory,
+            photos.GymMeProfile,
+            photos.GymMeOrderCustomer,
+            photos.GymMeCart,
         ],
         githubs: [
             {
@@ -263,6 +194,33 @@ export const PROJECTS: IProject[] = [
                 url: "https://github.com/AdrianYuu/gym-me"
             }
         ]
+    },
+    {
+        title: "ERamen",
+        descriptions: [
+            "Website for a ramen shop showcasing menu, promotions, and store information.",
+            "Developed as a project for the Human-Computer Interaction course.",
+        ],
+        type: ProjectType.PERSONAL,
+        technologies: [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        photos: [
+            photos.ERamenHome,
+            photos.ERamenProduct,
+            photos.ERamenPromotion,
+            photos.ERamenAbout,
+            photos.ERamenContact
+        ],
+        githubs: [
+            {
+                title: "eramen",
+                url: "https://github.com/AdrianYuu/eramen"
+            }
+        ],
+        demoUrl: "https://adrianyuu.github.io/eramen/html/home.html"
     },
     {
         title: "Atlantis",
@@ -288,14 +246,14 @@ export const PROJECTS: IProject[] = [
             "IIS"
         ],
         photos: [
-            AtlantisLanding,
-            AtlantisPromotion,
-            AtlantisVoting,
-            AtlantisMapping,
-            AtlantisCourse,
-            AtlantisDownloader,
-            AtlantisStudent,
-            AtlantisLecturer
+            photos.AtlantisLanding,
+            photos.AtlantisPromotion,
+            photos.AtlantisVoting,
+            photos.AtlantisMapping,
+            photos.AtlantisCourse,
+            photos.AtlantisDownloader,
+            photos.AtlantisStudent,
+            photos.AtlantisLecturer
         ]
     },
     {
@@ -314,41 +272,15 @@ export const PROJECTS: IProject[] = [
             "Express",
             "Prisma",
             "MySQL",
+            "WebSocket",
             "Docker"
         ],
         photos: [
-            AttendanceManagementLogin,
-            AttendanceManagementStudent,
-            AttendanceManagementClassroom,
-            AttendanceManagementAdmin,
-            AttendanceManagementExcel
+            photos.AttendanceManagementLogin,
+            photos.AttendanceManagementStudent,
+            photos.AttendanceManagementClassroom,
+            photos.AttendanceManagementAdmin,
+            photos.AttendanceManagementExcel
         ]
     },
-    {
-        title: "ERamen",
-        descriptions: [
-            "Website for a ramen shop showcasing menu, promotions, and store information.",
-            "Developed as a project for the Human-Computer Interaction course.",
-        ],
-        type: ProjectType.PERSONAL,
-        technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        photos: [
-            ERamenHome,
-            ERamenProduct,
-            ERamenPromotion,
-            ERamenAbout,
-            ERamenContact
-        ],
-        githubs: [
-            {
-                title: "eramen",
-                url: "https://github.com/AdrianYuu/eramen"
-            }
-        ],
-        demoUrl: "https://adrianyuu.github.io/eramen/html/home.html"
-    }
 ];
