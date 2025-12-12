@@ -28,7 +28,7 @@ const PhotosModal = ({photos, onModalClose}: Props) => {
                 <img
                     src={photos[activePhotoIndex]}
                     alt="ProjectPhoto"
-                    className="w-4/5 rounded-xl select-none pointer-events-none"
+                    className="w-[90rem] h-[50rem] rounded-xl select-none pointer-events-none"
                 />
                 <ChevronRight
                     size={48}

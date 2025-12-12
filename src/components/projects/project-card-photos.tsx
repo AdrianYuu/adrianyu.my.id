@@ -16,7 +16,7 @@ const ProjectCardPhotos = ({photos}: Props) => {
             <img
                 src={photos[activePhotoIndex]}
                 alt="ProjectPhoto"
-                className="w-[70rem] h-full object-cover rounded-xl shadow-lg"
+                className="w-[70rem] h-full object-cover rounded-xl border border-gray-200"
             />
 
             <div className="hidden lg:flex flex-col gap-3 ">
@@ -29,7 +29,7 @@ const ProjectCardPhotos = ({photos}: Props) => {
                             alt="ProjectPhoto"
                             onClick={() => setActivePhotoIndex(index)}
                             className={`
-                            h-28 object-cover rounded-xl cursor-pointer transition-all
+                            h-28 object-cover rounded-xl cursor-pointer transition-all border-gray-200
                             ${index !== activePhotoIndex ? "opacity-60 hover:opacity-100" : ""}
                         `}
                         />
