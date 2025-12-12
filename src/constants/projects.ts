@@ -55,6 +55,7 @@ import TravelohiWallet from "../assets/projects/personal/travelohi/wallet.webp";
 import TravelohiCard from "../assets/projects/personal/travelohi/card.webp";
 import TravelohiGame from "../assets/projects/personal/travelohi/game.webp";
 import TravelohiGameEnd from "../assets/projects/personal/travelohi/game-end.webp";
+import TravelohiAdmin from "../assets/projects/personal/travelohi/admin.webp";
 
 export interface IProject {
     title: string;
@@ -120,7 +121,8 @@ export const PROJECTS: IProject[] = [
             TravelohiWallet,
             TravelohiCard,
             TravelohiGame,
-            TravelohiGameEnd
+            TravelohiGameEnd,
+            TravelohiAdmin
         ],
         githubs: [
             {
