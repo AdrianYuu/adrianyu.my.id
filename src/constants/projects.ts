@@ -1,61 +1,74 @@
 import {ProjectType} from "./project-type.ts";
-import AttendanceManagementLogin from "../assets/projects/professional/attendance-management/login.webp";
-import AttendanceManagementStudent
-    from "../assets/projects/professional/attendance-management/student.webp";
-import AttendanceManagementClassroom
-    from "../assets/projects/professional/attendance-management/classroom.webp";
-import AttendanceManagementAdmin
-    from "../assets/projects/professional/attendance-management/admin.webp";
-import AttendanceManagementExcel
-    from "../assets/projects/professional/attendance-management/excel.webp";
-import ERamenHome from "../assets/projects/personal/eramen/home.webp";
-import ERamenProduct from "../assets/projects/personal/eramen/product.webp";
-import ERamenPromotion from "../assets/projects/personal/eramen/promotion.webp";
-import ERamenAbout from "../assets/projects/personal/eramen/about.webp";
-import ERamenContact from "../assets/projects/personal/eramen/contact.webp";
-import AtlantisLanding from "../assets/projects/professional/atlantis/landing.webp";
-import AtlantisPromotion from "../assets/projects/professional/atlantis/promotion.webp";
-import AtlantisVoting from "../assets/projects/professional/atlantis/voting.webp";
-import AtlantisMapping from "../assets/projects/professional/atlantis/mapping.webp";
-import AtlantisCourse from "../assets/projects/professional/atlantis/course.webp";
-import AtlantisDownloader from "../assets/projects/professional/atlantis/downloader.webp";
-import AtlantisStudent from "../assets/projects/professional/atlantis/student.webp";
-import AtlantisLecturer from "../assets/projects/professional/atlantis/lecturer.webp";
-import LinkasaLanding from "../assets/projects/personal/linkasa/landing.webp";
-import LinkasaLogin from "../assets/projects/personal/linkasa/login.webp";
-import LinkasaChat from "../assets/projects/personal/linkasa/chat.webp";
-import LinkasaBP from "../assets/projects/personal/linkasa/bp.webp";
-import LinkasaBSS from "../assets/projects/personal/linkasa/bss.webp";
-import LinkasaCABCO from "../assets/projects/personal/linkasa/cabco.webp";
-import LinkasaCIS from "../assets/projects/personal/linkasa/cis.webp";
-import LinkasaCS from "../assets/projects/personal/linkasa/cs.webp";
-import LinkasaFOM from "../assets/projects/personal/linkasa/fom.webp";
-import LinkasaGA from "../assets/projects/personal/linkasa/ga.webp";
-import LinkasaGHM from "../assets/projects/personal/linkasa/ghm.webp";
-import LinkasaHRD from "../assets/projects/personal/linkasa/hrd.webp";
-import LinkasaIDS from "../assets/projects/personal/linkasa/ids.webp";
-import LinkasaLAF from "../assets/projects/personal/linkasa/laf.webp";
-import LinkasaLOM from "../assets/projects/personal/linkasa/lom.webp";
-import LinkasaMM from "../assets/projects/personal/linkasa/mm.webp";
-import TravelohiRegister from "../assets/projects/personal/travelohi/register.webp";
-import TravelohiLogin from "../assets/projects/personal/travelohi/login.webp";
-import TravelohiOTP from "../assets/projects/personal/travelohi/otp.webp";
-import TravelohiForgot from "../assets/projects/personal/travelohi/forgot.webp";
-import TravelohiHome from "../assets/projects/personal/travelohi/home.webp";
-import TravelohiFlight from "../assets/projects/personal/travelohi/flight.webp";
-import TravelohiFlightDetail from "../assets/projects/personal/travelohi/flight-detail.webp";
-import TravelohiHotel from "../assets/projects/personal/travelohi/hotel.webp";
-import TravelohiHotelDetail from "../assets/projects/personal/travelohi/hotel-detail.webp";
-import TravelohiHotelDetail2 from "../assets/projects/personal/travelohi/hotel-detail-2.webp";
-import TravelohiPromo from "../assets/projects/personal/travelohi/promo.webp";
-import TravelohiCart from "../assets/projects/personal/travelohi/cart.webp";
-import TravelohiOrder from "../assets/projects/personal/travelohi/order.webp";
-import TravelohiProfile from "../assets/projects/personal/travelohi/profile.webp";
-import TravelohiWallet from "../assets/projects/personal/travelohi/wallet.webp";
-import TravelohiCard from "../assets/projects/personal/travelohi/card.webp";
-import TravelohiGame from "../assets/projects/personal/travelohi/game.webp";
-import TravelohiGameEnd from "../assets/projects/personal/travelohi/game-end.webp";
-import TravelohiAdmin from "../assets/projects/personal/travelohi/admin.webp";
+import {
+    AtlantisCourse,
+    AtlantisDownloader,
+    AtlantisLanding,
+    AtlantisLecturer,
+    AtlantisMapping,
+    AtlantisPromotion,
+    AtlantisStudent,
+    AtlantisVoting,
+    AttendanceManagementAdmin,
+    AttendanceManagementClassroom,
+    AttendanceManagementExcel,
+    AttendanceManagementLogin,
+    AttendanceManagementStudent,
+    ERamenAbout,
+    ERamenContact,
+    ERamenHome,
+    ERamenProduct,
+    ERamenPromotion,
+    GymMeCart,
+    GymMeHistory,
+    GymMeHomeAdmin,
+    GymMeLogin,
+    GymMeOrderAdmin,
+    GymMeOrderCustomer,
+    GymMeProfile,
+    GymMeRegister,
+    GymMeSupplement,
+    LinkasaBP,
+    LinkasaBSS,
+    LinkasaCABCO,
+    LinkasaChat,
+    LinkasaCIS,
+    LinkasaCS,
+    LinkasaFOM,
+    LinkasaGA,
+    LinkasaGHM,
+    LinkasaHRD,
+    LinkasaIDS,
+    LinkasaLAF,
+    LinkasaLanding,
+    LinkasaLogin,
+    LinkasaLOM,
+    LinkasaMM,
+    TemanMabarCompetition,
+    TemanMabarForum,
+    TemanMabarFriend, TemanMabarGame,
+    TemanMabarHome,
+    TemanMabarLogin, TemanMabarOrder, TemanMabarPlayer, TemanMabarProfile,
+    TemanMabarRegister,
+    TravelohiAdmin,
+    TravelohiCard,
+    TravelohiCart,
+    TravelohiFlight,
+    TravelohiFlightDetail,
+    TravelohiForgot,
+    TravelohiGame,
+    TravelohiGameEnd,
+    TravelohiHome,
+    TravelohiHotel,
+    TravelohiHotelDetail,
+    TravelohiHotelDetail2,
+    TravelohiLogin,
+    TravelohiOrder,
+    TravelohiOTP,
+    TravelohiProfile,
+    TravelohiPromo,
+    TravelohiRegister,
+    TravelohiWallet
+} from "./photos.ts";
 
 export interface IProject {
     title: string;
@@ -175,6 +188,79 @@ export const PROJECTS: IProject[] = [
             {
                 title: "linkasa",
                 url: "https://github.com/AdrianYuu/linkasa"
+            }
+        ]
+    },
+    {
+        title: "TemanMabar",
+        descriptions: [
+            "Provides user registration, authentication, and customizable gamer profiles.",
+            "Manages games and genres to organize user preferences and activities.",
+            "Supports team creation, team membership management, and collaborative play activities.",
+            "Enables competition creation, scheduling, participation, and team-based match coordination.",
+            "Includes a forum for posting questions, discussions, and comments.",
+            "Handles order management and payment processing for game-related services or items.",
+        ],
+        type: ProjectType.PERSONAL,
+        technologies: [
+            "Laravel",
+            "Tailwind",
+            "Flowbite",
+            "MySQL"
+        ],
+        photos: [
+            TemanMabarRegister,
+            TemanMabarLogin,
+            TemanMabarHome,
+            TemanMabarCompetition,
+            TemanMabarForum,
+            TemanMabarFriend,
+            TemanMabarGame,
+            TemanMabarOrder,
+            TemanMabarPlayer,
+            TemanMabarProfile
+        ],
+        githubs: [
+            {
+                title: "teman-mabar",
+                url: "https://github.com/AdrianYuu/teman-mabar"
+            }
+        ]
+    },
+    {
+        title: "GymMe",
+        descriptions: [
+            "ASP.NET Web Forms e‑commerce platform for managing and selling gym supplements.",
+            "Provides customer-facing product browsing with detailed supplement information (type, price, expiry).",
+            "Supports shopping cart functionality including add, update, and remove items.",
+            "Handles checkout and transaction processing with detailed transaction history views.",
+            "Includes user authentication and profile management.",
+            "Admin panel supports CRUD operations for supplements and supplement types.",
+            "Tracks inventory levels and supplement expiry dates.",
+            "Provides transaction reporting using Crystal Reports."
+        ],
+        type: ProjectType.PERSONAL,
+        technologies: [
+            "ASP.NET",
+            "C#",
+            "Bootstrap",
+            "Crystal Report",
+        ],
+        photos: [
+            GymMeRegister,
+            GymMeLogin,
+            GymMeHomeAdmin,
+            GymMeCart,
+            GymMeHistory,
+            GymMeOrderAdmin,
+            GymMeSupplement,
+            GymMeProfile,
+            GymMeOrderCustomer
+        ],
+        githubs: [
+            {
+                title: "gym-me",
+                url: "https://github.com/AdrianYuu/gym-me"
             }
         ]
     },
