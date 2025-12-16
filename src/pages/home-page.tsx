@@ -17,7 +17,7 @@ const HomePage = () => {
                         software. I enjoy learning new technologies and building things with clean, thoughtful code.</p>
                 </div>
                 <div className={"flex justify-center lg:justify-start"}>
-                    <a href={""}
+                    <a href={"Resume_Adrian Yu.pdf"} target={"_blank"}
                        className={"bg-black text-white px-4 lg:px-6 py-2 lg:py-3 rounded-md font-semibold cursor-pointer hover:opacity-90"}>View
                         My Resume</a>
                 </div>
