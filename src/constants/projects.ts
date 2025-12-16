@@ -18,6 +18,57 @@ export interface IGithub {
 
 export const PROJECTS: IProject[] = [
     {
+        title: "MiniShop",
+        descriptions: [
+            "Create, read, update, and delete products with category assignment, pricing, and stock control.",
+            "Organize products into categories with unique name constraints.",
+            "Register users, manage profiles, and apply role-based access control.",
+            "Secure authentication using JWT with role-based authorization.",
+            "Manage the complete order lifecycle with order status tracking.",
+            "Upload, store, and manage product images using MinIO object storage."
+        ],
+        type: ProjectType.PERSONAL,
+        technologies: [
+            "Vue3",
+            "TypeScript",
+            "Vue Query",
+            "Zod",
+            "Pinia",
+            "Tailwind",
+            "Shadcn",
+            "Spring Boot",
+            "Java",
+            "Lombok",
+            "Hibernate",
+            "Flyway",
+            "MapStruct",
+            "MinIO",
+            "MySQL"
+        ],
+        photos: [
+            photos.MiniShopHome,
+            photos.MiniShopRegister,
+            photos.MiniShopLogin,
+            photos.MiniShopProduct,
+            photos.MiniShopOrder,
+            photos.MiniShopHistories,
+            photos.MiniShopHistory,
+            photos.MiniShopProfile,
+            photos.MiniShopAdmin1,
+            photos.MiniShopAdmin2
+        ],
+        githubs: [
+            {
+                title: "mini-shop-fe",
+                url: "https://github.com/AdrianYuu/mini-shop-fe"
+            },
+            {
+                title: "mini-shop-be",
+                url: "https://github.com/AdrianYuu/mini-shop-be"
+            },
+        ]
+    },
+    {
         title: "Travelohi",
         descriptions: [
             "Full-stack travel booking platform for searching and booking flights and hotels with real-time availability.",

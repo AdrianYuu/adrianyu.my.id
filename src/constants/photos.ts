@@ -77,6 +77,17 @@ import TravelohiGame from "../assets/projects/personal/travelohi/game.webp";
 import TravelohiGameEnd from "../assets/projects/personal/travelohi/game-end.webp";
 import TravelohiAdmin from "../assets/projects/personal/travelohi/admin.webp";
 
+import MiniShopHome from "../assets/projects/personal/mini-shop/home.webp";
+import MiniShopRegister from "../assets/projects/personal/mini-shop/register.webp";
+import MiniShopLogin from "../assets/projects/personal/mini-shop/login.webp";
+import MiniShopProduct from "../assets/projects/personal/mini-shop/product.webp";
+import MiniShopOrder from "../assets/projects/personal/mini-shop/order.webp";
+import MiniShopHistories from "../assets/projects/personal/mini-shop/histories.webp";
+import MiniShopHistory from "../assets/projects/personal/mini-shop/history.webp";
+import MiniShopProfile from "../assets/projects/personal/mini-shop/profile.webp";
+import MiniShopAdmin1 from "../assets/projects/personal/mini-shop/admin-1.webp";
+import MiniShopAdmin2 from "../assets/projects/personal/mini-shop/admin-2.webp";
+
 export {
     AttendanceManagementLogin,
     AttendanceManagementStudent,
@@ -150,4 +161,14 @@ export {
     TravelohiGame,
     TravelohiGameEnd,
     TravelohiAdmin,
+    MiniShopHome,
+    MiniShopRegister,
+    MiniShopLogin,
+    MiniShopProduct,
+    MiniShopOrder,
+    MiniShopHistories,
+    MiniShopHistory,
+    MiniShopProfile,
+    MiniShopAdmin1,
+    MiniShopAdmin2
 };
