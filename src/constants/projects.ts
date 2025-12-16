@@ -20,10 +20,10 @@ export const PROJECTS: IProject[] = [
     {
         title: "MiniShop",
         descriptions: [
-            "Built a full-stack e-commerce system with product, category, and inventory management.",
-            "Implemented secure JWT-based authentication with role-based authorization.",
+            "Built an e-commerce system with product and category management.",
             "Developed complete order lifecycle management with status tracking.",
-            "Integrated MinIO for scalable product image storage and retrieval."
+            "Implemented role-based access control and secure authentication for admin and user operations.",
+            "Integrated MinIO for image storage and retrieval."
         ],
         type: ProjectType.PERSONAL,
         technologies: [
@@ -69,10 +69,10 @@ export const PROJECTS: IProject[] = [
     {
         title: "Travelohi",
         descriptions: [
-            "Developed a full-stack travel booking platform for flights and hotels with real-time availability.",
+            "Developed a travel booking platform for flights and hotels.",
             "Implemented booking management, seat selection, and hotel room handling.",
-            "Integrated WebSocket features for real-time games.",
-            "Built loyalty programs, reviews, and user profile management features."
+            "Integrated WebSocket features for real-time multiplayer games.",
+            "Built promos, reviews, and user profile management features."
         ],
         type: ProjectType.PERSONAL,
         technologies: [
@@ -161,7 +161,7 @@ export const PROJECTS: IProject[] = [
     {
         title: "TemanMabar",
         descriptions: [
-            "Built a gaming platform with user authentication and customizable profiles.",
+            "Developed a gaming social platform to help users find and connect with others to play games together.",
             "Implemented team, competition, and match management features.",
             "Developed discussion forums and social interaction modules.",
             "Integrated order and payment processing for in-platform services."
@@ -195,10 +195,10 @@ export const PROJECTS: IProject[] = [
     {
         title: "GymMe",
         descriptions: [
-            "Developed an e-commerce platform for gym supplement sales using ASP.NET Web Forms.",
+            "Developed an e-commerce platform for gym supplement sales.",
             "Implemented product management, inventory tracking, and expiration monitoring.",
             "Built shopping cart, checkout, and transaction history features.",
-            "Generated transaction reports using Crystal Reports."
+            "Generated transaction reports using Crystal Report."
         ],
         type: ProjectType.PERSONAL,
         technologies: [
@@ -256,8 +256,8 @@ export const PROJECTS: IProject[] = [
     {
         title: "Atlantis",
         descriptions: [
-            "Developed an internal web system serving over 200 staff and coordinators.",
-            "Implemented promotion registration and Best Assistant voting features.",
+            "Developed an internal web system serving 200+ staff and coordinators.",
+            "Implemented promotion registration and Best Assistant voting functionalities.",
             "Built academic data mapping and internal file download modules.",
             "Developed schedule and course management functionalities."
         ],
@@ -287,7 +287,7 @@ export const PROJECTS: IProject[] = [
     {
         title: "Attendance Management",
         descriptions: [
-            "Developed a web-based attendance system used daily by over 120 students.",
+            "Developed a web-based Attendance Management System supporting 120+ internship students.",
             "Implemented location-based check-in validation for attendance integrity.",
             "Built real-time attendance code generation using WebSocket.",
             "Automated attendance reporting with Excel export support."
