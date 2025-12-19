@@ -1,1 +1,1 @@
-export const MAX_VISIBLE_PHOTOS = 4;
+export const MAX_VISIBLE_PHOTOS = 3;
