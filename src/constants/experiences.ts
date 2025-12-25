@@ -15,9 +15,9 @@ export const EXPERIENCES: IExperience[] = [
         start: "February 2025",
         end: "Present",
         descriptions: [
-            "Developed a web-based Attendance Management System supporting 120+ internship students using React, Express, and MySQL, featuring location-based attendance validation and real-time attendance code generation.",
+            "Developed a web-based attendance management system supporting 120+ internship students using React, Express, and MySQL, featuring location-based attendance validation and real-time attendance code generation.",
             "Developed an Android electricity usage tracking application using Jetpack Compose and Room, enabling households to monitor power consumption and estimate energy costs.",
-            "Developed an online learning platform for bootcamp-style training using React, Laravel, and MySQL, supporting structured course access and content delivery for final-year students.",
+            "Developed an online learning platform for bootcamp training using React, Laravel, and MySQL, enabling structured course access and scalable content delivery for final-year students.",
         ]
     },
     {
@@ -43,7 +43,7 @@ export const EXPERIENCES: IExperience[] = [
         descriptions: [
             "Assisted instruction in Python-based scientific computing using NumPy, SciPy, and Matplotlib.",
             "Guided 80+ students in implementing numerical methods (equation solving, interpolation, regression, integration).",
-            "Reviewed code, debugged implementations, and supported practical sessions and exercise evaluation."
+            "Reviewed code, debugged implementations, and supported practical sessions and exercise evaluation.",
         ]
     },
     {
