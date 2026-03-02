@@ -13,7 +13,7 @@ export const EXPERIENCES: IExperience[] = [
         company: "BINUS University",
         location: "West Jakarta, Jakarta, Indonesia",
         start: "August 2024",
-        end: "Present",
+        end: "February 2026",
         descriptions: [
             "Designed and optimized 50+ complex SQL queries, stored procedures, and views to support application-level data processing and business logic requirements across academic systems.",
             "Built and maintained automated 15+ data processing workflows using SQL Server Agent to ensure reliable, scheduled operations and data consistency across systems.",
