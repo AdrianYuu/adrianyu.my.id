@@ -9,6 +9,18 @@ export interface IExperience {
 
 export const EXPERIENCES: IExperience[] = [
     {
+        title: "Application Developer",
+        company: "BINUS University",
+        location: "West Jakarta, Jakarta, Indonesia",
+        start: "February 2025",
+        end: "February 2026",
+        descriptions: [
+            "Developed a web-based attendance management system supporting 120+ internship students using React, Express, and MySQL, featuring location-based attendance validation and real-time attendance code generation.",
+            "Developed an Android electricity usage tracking application using Jetpack Compose and Room, enabling households to monitor power consumption and estimate energy costs.",
+            "Developed an online learning platform for bootcamp training using React, Laravel, and MySQL, enabling structured course access and scalable content delivery for final-year students.",
+        ]
+    },
+    {
         title: "Database Administrator",
         company: "BINUS University",
         location: "West Jakarta, Jakarta, Indonesia",
@@ -20,18 +32,6 @@ export const EXPERIENCES: IExperience[] = [
             "Improved system performance by implementing advanced indexing strategies and analyzing execution plans, significantly reducing query latency for large-scale datasets.",
             "Modernized a legacy ASP.NET MVC web application by migrating it to .NET Core and React (with TanStack Query), enabling cross-division data access and configurable course management rules.",
             "Managed laboratory academic data for 30,000+ students per semester across six BINUS University campuses, ensuring accurate score publication, schedule coordination, and yudisium (graduation eligibility) reporting.",
-        ]
-    },
-    {
-        title: "Application Developer",
-        company: "BINUS University",
-        location: "West Jakarta, Jakarta, Indonesia",
-        start: "February 2025",
-        end: "February 2026",
-        descriptions: [
-            "Developed a web-based attendance management system supporting 120+ internship students using React, Express, and MySQL, featuring location-based attendance validation and real-time attendance code generation.",
-            "Developed an Android electricity usage tracking application using Jetpack Compose and Room, enabling households to monitor power consumption and estimate energy costs.",
-            "Developed an online learning platform for bootcamp training using React, Laravel, and MySQL, enabling structured course access and scalable content delivery for final-year students.",
         ]
     },
     {
